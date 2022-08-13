@@ -1,5 +1,5 @@
 # devteam-minciencias-ciclo3-2022
- Repositorio Minciencias
+ Repositorio MinTics
 
 El proyecto describe las actividades relacionadas al desarrollo de un sitio web para el curso de MinTic 2022, en el ciclo 3 de Desarrollo de Software.
 
