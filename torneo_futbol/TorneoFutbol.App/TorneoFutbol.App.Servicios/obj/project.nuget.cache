@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "yerRextFhU+sfRwj/CbvnCQTTCuSv8yOfdQZY/I4oDFgcpsy+nH6EnubV3Parv8ppbWgjZ8iGQywB5Mzf1HMKg==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\Repositories\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Servicios\\TorneoFutbol.App.Servicios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Beethoven Narvaez R\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Beethoven Narvaez R\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Beethoven Narvaez R\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Beethoven Narvaez R\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Beethoven Narvaez R\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Beethoven Narvaez R\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
