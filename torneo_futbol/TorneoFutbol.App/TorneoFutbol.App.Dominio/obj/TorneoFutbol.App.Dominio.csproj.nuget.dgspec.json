@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Repositories\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {}
+    "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Repositories\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+    "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Repositories\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
         "projectName": "TorneoFutbol.App.Dominio",
-        "projectPath": "C:\\GitHub\\Repositories\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Beethoven Narvaez R\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Repositories\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\artge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Beethoven Narvaez R\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\artge\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
