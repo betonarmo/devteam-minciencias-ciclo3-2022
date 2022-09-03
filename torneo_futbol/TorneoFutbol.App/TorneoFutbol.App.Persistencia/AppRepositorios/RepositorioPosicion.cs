@@ -7,7 +7,7 @@ namespace Torneo.App.Persistencia
         private readonly DataContext _dataContext = new DataContext();
         public Posicion AddPosicion(Posicion posicion)
         {
-            var posicionInsertado = _dataContext.Posicions.Add(posicion); 
+            var posicionInsertado = _dataContext.Posiciones.Add(posicion); 
             _dataContext.SaveChanges();
             return posicionInsertado.Entity;
         }

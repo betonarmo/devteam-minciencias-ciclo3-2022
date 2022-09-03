@@ -3,8 +3,8 @@ namespace Torneo.App.Persistencia
 {
     public interface IRepositorioJugador
     {
-        public Jugador AddJugador(Jugador jugador, int numero, int idEquipo, int idPosicion);
+        public Jugador AddJugador(Jugador jugador, int idEquipo, int idPosicion);
+        public IEnumerable<Jugador> GetAllJugadores();
 
-        
     }
 }
