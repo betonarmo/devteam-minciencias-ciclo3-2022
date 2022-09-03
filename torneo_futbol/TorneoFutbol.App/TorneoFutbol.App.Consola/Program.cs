@@ -7,6 +7,7 @@ namespace Torneo.App.Consola
         private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio();
         private static IRepositorioDT _repoDT = new RepositorioDT();
         private static IRepositorioEquipo _repoEquipo = new RepositorioEquipo();
+        private static IRepositorioPartido _repoPartido = new RepositorioPartido();
         static void Main(string[] args)
         {
             int opcion = 0;
