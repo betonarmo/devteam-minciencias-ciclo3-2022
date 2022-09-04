@@ -36,12 +36,12 @@ namespace Torneo.App.Consola
                 do {
                     str = Console.ReadLine();
                     opcion = (int) str[0];
-                } while (!((opcion >= 48 && opcion<=57) || (opcion>=97 && opcion<=99)));
+                } while (!((opcion >= 48 && opcion<=57) || (opcion>=65 && opcion<=67)));
                 if (opcion>=48 && opcion<=57){
                     opcion=opcion-48;
                 }else{
-                    if (opcion>=97 && opcion<=99){
-                        opcion=opcion-97+10;
+                    if (opcion>=65 && opcion<=67){
+                        opcion=opcion-65+10;
                     } else{
                         opcion=0;
                     }
@@ -85,7 +85,10 @@ namespace Torneo.App.Consola
                     case 12:
                         //GetAllPartidos();
                         Console.WriteLine(" Mostrar partidos no implementada ");
-                        break;            
+                        break;    
+                    default:
+                        Console.WriteLine(" Digite opcion valida [0..9] y [A..B] ");
+                        break;         
                 }
                 Console.WriteLine("Presione enter");
                 chr = Console.ReadKey().KeyChar;        
