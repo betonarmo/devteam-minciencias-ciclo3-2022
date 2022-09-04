@@ -127,8 +127,10 @@ namespace Torneo.App.Consola
         {
             Console.WriteLine("Digite nombre del equipo:");
             string nombre = Console.ReadLine();
+            GetAllMunicipios();
             Console.WriteLine("Digite el iD del equipo municipio:");
             int idMunicipio = Int32.Parse(Console.ReadLine());
+            GetAllDTs();
             Console.WriteLine("Digite el iD de director técnico:");
             int idDT = Int32.Parse(Console.ReadLine());
             var equipo = new Equipo
@@ -169,9 +171,11 @@ namespace Torneo.App.Consola
 
         private static void GetAllMunicipios()
         {
+            Console.WriteLine("MUNICIPIOS");
+            Console.WriteLine("ID  NOMBRE");
             foreach (var municipio in _repoMunicipio.GetAllMunicipios())
             {
-                Console.WriteLine(municipio.Id + " " + municipio.Nombre);
+                Console.WriteLine(municipio.Id + "    " + municipio.Nombre);
             }
         }
 

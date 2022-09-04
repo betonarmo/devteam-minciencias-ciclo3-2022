@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Rene Avila Alonso\\.nuget\\packages\\": {}
+    "C:\\Users\\Servidor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rene Avila Alonso\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Servidor\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
       "projectName": "TorneoFutbol.App.Dominio",
-      "projectPath": "C:\\Users\\Rene Avila Alonso\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Rene Avila Alonso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rene Avila Alonso\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\Servidor\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Servidor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Servidor\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rene Avila Alonso\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Servidor\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
