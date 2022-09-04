@@ -16,6 +16,14 @@ namespace Torneo.App.Persistencia
             _dataContext.SaveChanges();
             return equipoInsertado.Entity;
         }
+        public IEnumerable<Equipo> GetAllEquipos()
+        {
+            var equipos = _dataContext.Equipos
+                .Include(e => e.Municipio)
+                .Include(e => e.DirectorTecnico)
+                .ToList();
+            return equipos;
+        }
        
     }
 }

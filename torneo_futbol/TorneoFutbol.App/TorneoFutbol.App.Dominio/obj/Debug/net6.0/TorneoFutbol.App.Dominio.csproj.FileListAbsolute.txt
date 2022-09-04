@@ -34,3 +34,15 @@ C:\Users\Servidor\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\Tor
 C:\Users\Servidor\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\refint\TorneoFutbol.App.Dominio.dll
 C:\Users\Servidor\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\TorneoFutbol.App.Dominio.pdb
 C:\Users\Servidor\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\ref\TorneoFutbol.App.Dominio.dll
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net6.0\TorneoFutbol.App.Dominio.deps.json
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net6.0\TorneoFutbol.App.Dominio.dll
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\bin\Debug\net6.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\TorneoFutbol.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\TorneoFutbol.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\TorneoFutbol.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\TorneoFutbol.App.Dominio.AssemblyInfo.cs
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\TorneoFutbol.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\TorneoFutbol.App.Dominio.dll
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\refint\TorneoFutbol.App.Dominio.dll
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Dominio\obj\Debug\net6.0\ref\TorneoFutbol.App.Dominio.dll

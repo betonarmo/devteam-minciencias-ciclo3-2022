@@ -49,3 +49,20 @@ C:\Users\Servidor\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\Tor
 C:\Users\Servidor\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.csproj.CopyComplete
 C:\Users\Servidor\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.genruntimeconfig.cache
 C:\Users\Servidor\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\ref\TorneoFutbol.App.Persistencia.dll
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net6.0\TorneoFutbol.App.Persistencia.deps.json
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net6.0\TorneoFutbol.App.Persistencia.runtimeconfig.json
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net6.0\TorneoFutbol.App.Persistencia.dll
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net6.0\TorneoFutbol.App.Persistencia.pdb
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net6.0\TorneoFutbol.App.Dominio.dll
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net6.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.AssemblyInfo.cs
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.csproj.CopyComplete
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.dll
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\refint\TorneoFutbol.App.Persistencia.dll
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.pdb
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\TorneoFutbol.App.Persistencia.genruntimeconfig.cache
+C:\Users\Rene Avila Alonso\Desktop\projects\devteam-mintics-ciclo3-2022\torneo_futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net6.0\ref\TorneoFutbol.App.Persistencia.dll

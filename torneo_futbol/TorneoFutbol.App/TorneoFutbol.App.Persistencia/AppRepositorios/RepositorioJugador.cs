@@ -16,6 +16,13 @@ namespace Torneo.App.Persistencia
             _dataContext.SaveChanges();
             return jugadorInsertado.Entity;
         }
-       
+       public IEnumerable<Jugador> GetAllJugadores()
+        {
+            var jugadores = _dataContext.Jugadores
+                .Include(e => e.Equipo)
+                .Include(e => e.Posicion)
+                .ToList();
+            return jugadores;
+        }
     }
 }

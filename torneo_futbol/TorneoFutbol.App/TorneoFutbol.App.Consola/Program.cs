@@ -14,9 +14,9 @@ namespace Torneo.App.Consola
 
         static void Main(string[] args)
         {
-            string str = '0';
-            int opcion=0;
+            string str = "0";
             char chr;
+            int opcion=0;
             do
             {
                 Console.Clear();
@@ -36,51 +36,60 @@ namespace Torneo.App.Consola
                 do {
                     str = Console.ReadLine();
                     opcion = (int) str[0];
-                } while (!((opcion >= 48 && ocpion<=57) || (opcion>=65 && opcion<=67)));
+                } while (!((opcion >= 48 && opcion<=57) || (opcion>=97 && opcion<=99)));
+                if (opcion>=48 && opcion<=57){
+                    opcion=opcion-48;
+                }else{
+                    if (opcion>=97 && opcion<=99){
+                        opcion=opcion-97+10;
+                    } else{
+                        opcion=0;
+                    }
+                }
                 switch (opcion)
                 {
-                    case 49:   // 1
+                    case 1:
                         AddMunicipio();
                         break;
-                    case 50:   // 2
+                    case 2:
                         AddDT();
                         break;
-                    case 51:   //3
+                    case 3:
                         AddEquipo();
                         break;
-                    case 52:  //4
+                    case 4:
                         AddPosicion();
                         break;    
-                    case 53:  // 5
+                    case 5:
                         AddJugador();
                         break;
-                    case 54: //6
+                    case 6:
                         // AddPartido();
                         Console.WriteLine(" Add partido no implementada ");
                         break;    
-                    case 55: //7
+                    case 7:
                         GetAllMunicipios();
                         break;    
-                    case 56: //8
+                    case 8:
                         GetAllDTs();
                         break;
-                    case 57:  //9
+                    case 9:
                         GetAllEquipos();
                         break;
-                    case 97:  // A
+                    case 10:  
                         GetAllPosiciones();
                         break;    
-                    case 98:   //B
+                    case 11:
                         GetAllJugadores();
                         break;        
-                    case 99:  //C
+                    case 12:
                         //GetAllPartidos();
                         Console.WriteLine(" Mostrar partidos no implementada ");
                         break;            
                 }
                 Console.WriteLine("Presione enter");
                 chr = Console.ReadKey().KeyChar;        
-            } while (opcion != 48);  // opcion 0
+            } while (opcion != 0);
 
         }
         private static void AddMunicipio()
@@ -197,7 +206,7 @@ namespace Torneo.App.Consola
             }
         }
 
-        // aqui va GetAllPartdios()
+        // aqui va GetAllPartidos()
 
         // aqui va AddPartido()
 

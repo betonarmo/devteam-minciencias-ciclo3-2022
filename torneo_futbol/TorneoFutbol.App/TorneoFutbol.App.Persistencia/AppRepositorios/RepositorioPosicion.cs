@@ -11,5 +11,9 @@ namespace Torneo.App.Persistencia
             _dataContext.SaveChanges();
             return posicionInsertado.Entity;
         }
+        public IEnumerable<Posicion> GetAllPosiciones()
+        {
+            return _dataContext.Posiciones;
+        }        
     }
 }
