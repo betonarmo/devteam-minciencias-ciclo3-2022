@@ -33,6 +33,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("B. Mostrar Jugadores");
                 Console.WriteLine("C. Mostrar Partidos");
                 Console.WriteLine("0. Salir");
+                Console.WriteLine("Digite opcion valida [0..9] o [A..B]");
                 do {
                     str = Console.ReadLine();
                     opcion = (int) str[0];
@@ -157,8 +158,10 @@ namespace Torneo.App.Consola
             string nombre = Console.ReadLine();
             Console.WriteLine("Digite Numero del Jugador :");
             int numero = Int32.Parse(Console.ReadLine());
+            GetAllEquipos();
             Console.WriteLine("Digite el iD del Equipo:");
             int idEquipo = Int32.Parse(Console.ReadLine());
+            GetAllPosiciones();
             Console.WriteLine("Digite el iD de la Posicion:");
             int idPosicion = Int32.Parse(Console.ReadLine());
             var jugador = new Jugador
@@ -173,6 +176,7 @@ namespace Torneo.App.Consola
         {
             Console.WriteLine("Municipios");
             Console.WriteLine("Id"+"\t"+"Nombre_Municipio");
+            repetirChar('-',30);
             foreach (var municipio in _repoMunicipio.GetAllMunicipios())
             {
                 Console.WriteLine(municipio.Id + "\t" + municipio.Nombre);
@@ -183,6 +187,7 @@ namespace Torneo.App.Consola
         {
             Console.WriteLine("Directores Tecnicos");
 	        Console.WriteLine("ID"+"\t"+"Nombre_DT"+"\t"+"Documento"+"\t"+"Telefono");
+            repetirChar('_',50);
             foreach (var dt in _repoDT.GetAllDTs())
             {
                 Console.WriteLine(dt.Id + "\t" + dt.Nombre +"\t"+dt.Documento + "\t" + dt.Telefono);
@@ -193,10 +198,11 @@ namespace Torneo.App.Consola
         {
             Console.WriteLine("Equipos");
             Console.WriteLine("ID"+"\t"+"Nombre_Equipo"+"\t"+"Municipio"+"\t"+"Director_Tecnico");
+            repetirChar('-',62);
             foreach (var equipo in _repoEquipo.GetAllEquipos())
             {
                 Console.WriteLine(equipo.Id + "\t" + equipo.Nombre 
-                + "\t"+"\t"+ equipo.Municipio.Nombre + "\t" + equipo.DirectorTecnico.Nombre);
+                + "\t"+ equipo.Municipio.Nombre + "\t" + equipo.DirectorTecnico.Nombre);
             }
         }
 
@@ -204,6 +210,7 @@ namespace Torneo.App.Consola
         {
             Console.WriteLine("Posiciones");
             Console.WriteLine("ID"+"\t"+"Posicion_terreno_de_Juego");
+            repetirChar('-',30);
             foreach (var posicion in _repoPosicion.GetAllPosiciones())
             {
                 Console.WriteLine(posicion.Id + "\t" + posicion.Nombre);
@@ -214,11 +221,17 @@ namespace Torneo.App.Consola
         {
             Console.WriteLine("Jugadores");
             Console.WriteLine("ID"+"\t"+"Nombre_Jugador"+"\t"+"Numero"+"\t"+    "Posicion"+"\t"+"Equipo");
+            repetirChar('-',60);
             foreach (var jugador in _repoJugador.GetAllJugadores())
             {
                 Console.WriteLine(jugador.Id + "\t" + jugador.Nombre + "\t" +
                 jugador.Numero+"\t"+ jugador.Posicion.Nombre + "\t" + jugador.Equipo.Nombre);
             }
+        }
+
+        private static void repetirChar(char car, int n){
+            string str = string.Concat(Enumerable.Repeat(car, n));
+            Console.WriteLine(str);
         }
 
         // aqui va GetAllPartidos()
