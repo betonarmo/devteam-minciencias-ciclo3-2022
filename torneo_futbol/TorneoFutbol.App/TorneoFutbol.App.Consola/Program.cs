@@ -171,45 +171,53 @@ namespace Torneo.App.Consola
 
         private static void GetAllMunicipios()
         {
-            Console.WriteLine("MUNICIPIOS");
-            Console.WriteLine("ID  NOMBRE");
+            Console.WriteLine("Municipios");
+            Console.WriteLine("Id"+"\t"+"Nombre_Municipio");
             foreach (var municipio in _repoMunicipio.GetAllMunicipios())
             {
-                Console.WriteLine(municipio.Id + "    " + municipio.Nombre);
+                Console.WriteLine(municipio.Id + "\t" + municipio.Nombre);
             }
         }
 
         private static void GetAllDTs()
         {
+            Console.WriteLine("Directores Tecnicos");
+	        Console.WriteLine("ID"+"\t"+"Nombre_DT"+"\t"+"Documento"+"\t"+"Telefono");
             foreach (var dt in _repoDT.GetAllDTs())
             {
-                Console.WriteLine(dt.Id + " " + dt.Nombre + " " + dt.Documento + " " + dt.Telefono);
+                Console.WriteLine(dt.Id + "\t" + dt.Nombre +"\t"+dt.Documento + "\t" + dt.Telefono);
             }
         }
 
         private static void GetAllEquipos()
         {
+            Console.WriteLine("Equipos");
+            Console.WriteLine("ID"+"\t"+"Nombre_Equipo"+"\t"+"Municipio"+"\t"+"Director_Tecnico");
             foreach (var equipo in _repoEquipo.GetAllEquipos())
             {
-                Console.WriteLine(equipo.Id + " " + equipo.Nombre 
-                + " " + equipo.Municipio.Nombre + " " + equipo.DirectorTecnico.Nombre);
+                Console.WriteLine(equipo.Id + "\t" + equipo.Nombre 
+                + "\t"+"\t"+ equipo.Municipio.Nombre + "\t" + equipo.DirectorTecnico.Nombre);
             }
         }
 
         private static void GetAllPosiciones()
         {
+            Console.WriteLine("Posiciones");
+            Console.WriteLine("ID"+"\t"+"Posicion_terreno_de_Juego");
             foreach (var posicion in _repoPosicion.GetAllPosiciones())
             {
-                Console.WriteLine(posicion.Id + " " + posicion.Nombre);
+                Console.WriteLine(posicion.Id + "\t" + posicion.Nombre);
             }
         }
 
         private static void GetAllJugadores()
         {
+            Console.WriteLine("Jugadores");
+            Console.WriteLine("ID"+"\t"+"Nombre_Jugador"+"\t"+"Numero"+"\t"+    "Posicion"+"\t"+"Equipo");
             foreach (var jugador in _repoJugador.GetAllJugadores())
             {
-                Console.WriteLine(jugador.Id + " " + jugador.Nombre + " " +
-                jugador.Numero+" "+ jugador.Posicion.Nombre + " " + jugador.Equipo.Nombre);
+                Console.WriteLine(jugador.Id + "\t" + jugador.Nombre + "\t" +
+                jugador.Numero+"\t"+ jugador.Posicion.Nombre + "\t" + jugador.Equipo.Nombre);
             }
         }
 
