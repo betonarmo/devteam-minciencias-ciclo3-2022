@@ -32,7 +32,7 @@ namespace Torneo.App.Consola
                     case 3:
                         AddEquipo();
                         break;
-                    /*case 4:
+                    case 4:
                         GetAllMunicipios();
                         break;
                     case 5:
@@ -40,7 +40,7 @@ namespace Torneo.App.Consola
                         break;
                     case 6:
                         GetAllEquipos();
-                        break;*/
+                        break;
                 }
 
             } while (opcion != 0);
