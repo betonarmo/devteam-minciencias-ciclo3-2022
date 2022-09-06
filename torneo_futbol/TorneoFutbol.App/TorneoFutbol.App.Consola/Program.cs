@@ -16,10 +16,11 @@ namespace Torneo.App.Consola
                 Console.WriteLine("1. Insertar Municipio");
                 Console.WriteLine("2. Insertar Director Tecnico");
                 Console.WriteLine("3. Insertar Equipo");
+                Console.WriteLine("4. Insertar Partido"); 
                 //Console.WriteLine("4. Mostrar Municipios");
                 //Console.WriteLine("5. Mostrar DTs");
                 //Console.WriteLine("6. Mostrar Equipos");
-                Console.WriteLine("7. Insertar Partido");         ///Inserte este menú partido
+                Console.WriteLine("8. Mostrar Partidos");
                 Console.WriteLine("0. Salir");
                 opcion = Int32.Parse(Console.ReadLine());
                 switch (opcion)
@@ -34,19 +35,22 @@ namespace Torneo.App.Consola
                         AddEquipo();
                         break;
                     case 4:
+                        AddPartido();
+                        break;
+                    /*case 5:
                         GetAllMunicipios();
                         break;
-                    case 5:
+                    case 6:
                         GetAllDTs();
                         break;
-                    case 6:
+                    case 7:
                         GetAllEquipos();
-                        break;
-                    case 7:                      ///Añadí GetAllPArtidos
+                        break;*/
+                    case 8:
                         GetAllPartidos();
                         break;
 
-                
+
                 }
 
             } while (opcion != 0);
@@ -95,12 +99,11 @@ namespace Torneo.App.Consola
             _repoEquipo.AddEquipo(equipo, idMunicipio, idDT);
         }
 
-                private static void AddPartido() ///Añadí menu Partido
+        private static void AddPartido()
         {
-            DateTime dt = new DateTime(2018, 7, 24); /// Código de Date Time
-            Console.WriteLine(dt.ToString());
-            Console.WriteLine("Escriba la fecha del partido");
-            DateTime fechaHora = Console.ReadLine();
+            Console.WriteLine("Digite la fecha del partido (mm-dd-yyyy):");
+            string fechaHora = (Console.ReadLine());
+            DateTime myDate = DateTime.Parse(fechaHora);
 
             Console.WriteLine("Escriba id del Equipo Local");
             int idLocal = Int32.Parse(Console.ReadLine());
@@ -115,10 +118,7 @@ namespace Torneo.App.Consola
             var partido = new Partido
             {
 
-                FechaHora = fechaHora,
-                DateTime(2022, 09, 04),
-                //Local = local,
-                //Visitante = visitante,
+                FechaHora = myDate,
                 MarcadorLocal = marcadorLocal,
                 MarcadorVisitante = marcadorVisitante,
 
@@ -129,12 +129,12 @@ namespace Torneo.App.Consola
         {
             foreach (var partido in _repoPartido.GetAllPartidos())
             {
-                Console.WriteLine(fechaHora.DateTime + " "
-                + local.Nombre + " "
-                + marcadorLocal.equipo + " "
-                + visitante.Nombre + " "
-                + marcadorVisitante.equipo + " ");
-            }
+                Console.WriteLine("Fecha: " + partido.FechaHora + "\n" 
+                + "Partido ID: " + partido.Id + "\n" + "Nombre Equipo Local: " + partido.Local.Nombre 
+                + "\n" + "Marcador local: " + partido.MarcadorLocal + "\n" 
+                + "Nombre Equipo Visitante: " + partido.Visitante.Nombre + "\n"  
+                + "Marcador Visitante: " + partido.MarcadorVisitante);
+            } 
         }
 
     }
