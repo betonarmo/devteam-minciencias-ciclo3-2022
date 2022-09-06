@@ -1,6 +1,6 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 using Torneo.App.Dominio;
+using System;
 using Torneo.App.Persistencia;
 namespace Torneo.App.Consola
 {
@@ -11,8 +11,7 @@ namespace Torneo.App.Consola
         private static IRepositorioEquipo _repoEquipo = new RepositorioEquipo();
         private static IRepositorioPosicion _repoPosicion = new RepositorioPosicion();
         private static IRepositorioJugador _repoJugador = new RepositorioJugador();
-        private static IRepositorioPartido _repoJugador = new RepositorioPartido();
-
+        private static IRepositorioPartido _repoPartido = new RepositorioPartido();
         static void Main(string[] args)
         {
             string str = "0";
@@ -67,7 +66,6 @@ namespace Torneo.App.Consola
                         break;
                     case 6:
                         AddPartido();
-                        //Console.WriteLine(" Add partido no implementada ");
                         break;    
                     case 7:
                         GetAllMunicipios();
@@ -86,7 +84,6 @@ namespace Torneo.App.Consola
                         break;        
                     case 12:
                         GetAllPartidos();
-                        //Console.WriteLine(" Mostrar partidos no implementada ");
                         break;    
                     default:
                         Console.WriteLine(" Digite opcion valida [0..9] o [A..B] ");
@@ -171,6 +168,31 @@ namespace Torneo.App.Consola
             };
             _repoJugador.AddJugador(jugador, idEquipo, idPosicion);
         }
+        
+        private static void AddPartido()
+        {
+            Console.WriteLine("Digite la fecha del partido (mm-dd-yyyy):");
+            string fechaHora = (Console.ReadLine());
+            DateTime myDate = DateTime.Parse(fechaHora);
+            GetAllEquipos();
+            Console.WriteLine("Escriba id del Equipo Local");
+            int idLocal = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Escriba el marcador del Equipo Local");
+            int marcadorLocal = Int32.Parse(Console.ReadLine());
+            GetAllEquipos();
+            Console.WriteLine("Escriba el id del Equipo Visitante");
+            int idVisitante = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Escriba el marcador del equipo Visitante");
+            int marcadorVisitante = Int32.Parse(Console.ReadLine());
+
+            var partido = new Partido
+            {
+                FechaHora = myDate,
+                MarcadorLocal = marcadorLocal,
+                MarcadorVisitante = marcadorVisitante,
+            };
+            _repoPartido.AddPartido(partido, idLocal, idVisitante);
+        }
 
         private static void GetAllMunicipios()
         {
@@ -234,9 +256,52 @@ namespace Torneo.App.Consola
             Console.WriteLine(str);
         }
 
+        // private static void AddPartido()
+        // {
+        //     Console.WriteLine("Digite la fecha del partido (mm-dd-yyyy):");
+        //     string fechaHora = (Console.ReadLine());
+        //     DateTime myDate = DateTime.Parse(fechaHora);
+        //     bool Correcto=false;
+        //     while(!Correcto)
+        //     {
+        //         GetAllEquipos();
+        //         Console.WriteLine("Escriba id del Equipo Local");
+        //         int idLocal = Int32.Parse(Console.ReadLine());
+        //         Console.WriteLine("Escriba el marcador del Equipo Local");
+        //         int marcadorLocal = Int32.Parse(Console.ReadLine());
+        //         GetAllEquipos();
+        //         Console.WriteLine("Escriba el id del Equipo Visitante");
+        //         int idVisitante = Int32.Parse(Console.ReadLine());
+        //         if (idLocal!=idVisitante){
+        //             Correcto=true;
+        //         }
+        //         else {
+        //             Console.WriteLine("ID local y visitante debe ser distinto");
+        //         }
+        //     }    
+        //     Console.WriteLine("Escriba el marcador del equipo Visitante");
+        //     int marcadorVisitante = Int32.Parse(Console.ReadLine());
+
+        //     var partido = new Partido
+        //     {
+        //         FechaHora = myDate,
+        //         MarcadorLocal = marcadorLocal,
+        //         MarcadorVisitante = marcadorVisitante,
+        //     };
+        //     _repoPartido.AddPartido(partido, idLocal, idVisitante);
+        // }
+
         // aqui va GetAllPartidos()
-
-        // aqui va AddPartido()
-
+        private static void GetAllPartidos()        
+        {
+            foreach (var partido in _repoPartido.GetAllPartidos())
+            {
+                Console.WriteLine("Fecha: " + partido.FechaHora + "\n" 
+                + "Partido ID: " + partido.Id + "\n" + "Nombre Equipo Local: " + partido.Local.Nombre 
+                + "\n" + "Marcador local: " + partido.MarcadorLocal + "\n" 
+                + "Nombre Equipo Visitante: " + partido.Visitante.Nombre + "\n"  
+                + "Marcador Visitante: " + partido.MarcadorVisitante);
+            } 
+        }
     }
 }
