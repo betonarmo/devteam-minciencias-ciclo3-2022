@@ -88,13 +88,12 @@ namespace Torneo.App.Consola
                         Console.WriteLine(" Mostrar partidos no implementada ");
                         break;    
                     default:
-                        Console.WriteLine(" Digite opcion valida [0..9] y [A..B] ");
+                        Console.WriteLine(" Digite opcion valida [0..9] o [A..B] ");
                         break;         
                 }
                 Console.WriteLine("Presione enter");
                 chr = Console.ReadKey().KeyChar;        
             } while (opcion != 0);
-
         }
         private static void AddMunicipio()
         {
@@ -187,7 +186,7 @@ namespace Torneo.App.Consola
         {
             Console.WriteLine("Directores Tecnicos");
 	        Console.WriteLine("ID"+"\t"+"Nombre_DT"+"\t"+"Documento"+"\t"+"Telefono");
-            repetirChar('_',50);
+            repetirChar('-',50);
             foreach (var dt in _repoDT.GetAllDTs())
             {
                 Console.WriteLine(dt.Id + "\t" + dt.Nombre +"\t"+dt.Documento + "\t" + dt.Telefono);
@@ -220,7 +219,7 @@ namespace Torneo.App.Consola
         private static void GetAllJugadores()
         {
             Console.WriteLine("Jugadores");
-            Console.WriteLine("ID"+"\t"+"Nombre_Jugador"+"\t"+"Numero"+"\t"+    "Posicion"+"\t"+"Equipo");
+            Console.WriteLine("ID"+"\t"+"Nombre_Jugador"+"\t"+"Numero"+"\t"+"Posicion"+"\t"+"Equipo");
             repetirChar('-',60);
             foreach (var jugador in _repoJugador.GetAllJugadores())
             {
