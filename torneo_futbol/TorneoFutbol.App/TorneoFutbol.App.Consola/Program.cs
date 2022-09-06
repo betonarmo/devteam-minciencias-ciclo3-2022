@@ -11,6 +11,7 @@ namespace Torneo.App.Consola
         private static IRepositorioEquipo _repoEquipo = new RepositorioEquipo();
         private static IRepositorioPosicion _repoPosicion = new RepositorioPosicion();
         private static IRepositorioJugador _repoJugador = new RepositorioJugador();
+        private static IRepositorioPartido _repoJugador = new RepositorioPartido();
 
         static void Main(string[] args)
         {
@@ -65,8 +66,8 @@ namespace Torneo.App.Consola
                         AddJugador();
                         break;
                     case 6:
-                        // AddPartido();
-                        Console.WriteLine(" Add partido no implementada ");
+                        AddPartido();
+                        //Console.WriteLine(" Add partido no implementada ");
                         break;    
                     case 7:
                         GetAllMunicipios();
@@ -84,8 +85,8 @@ namespace Torneo.App.Consola
                         GetAllJugadores();
                         break;        
                     case 12:
-                        //GetAllPartidos();
-                        Console.WriteLine(" Mostrar partidos no implementada ");
+                        GetAllPartidos();
+                        //Console.WriteLine(" Mostrar partidos no implementada ");
                         break;    
                     default:
                         Console.WriteLine(" Digite opcion valida [0..9] o [A..B] ");

@@ -26,8 +26,8 @@ namespace Torneo.App.Persistencia
         public IEnumerable<Partido> GetAllPartidos()
         {
             var partidos = _dataContext.Partidos
-                .Include(e => e.Local)
-                .Include(e => e.Visitante)
+                .Include(e => e.Equipo)      // local
+                .Include(e => e.Equipo)      // visitante
                 .ToList();
             return partidos;
         }
