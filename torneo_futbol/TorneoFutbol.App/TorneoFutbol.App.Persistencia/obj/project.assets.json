@@ -2030,19 +2030,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Servidor\\.nuget\\packages\\": {}
+    "C:\\Users\\artge\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Servidor\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
       "projectName": "TorneoFutbol.App.Persistencia",
-      "projectPath": "C:\\Users\\Servidor\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Servidor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Servidor\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\TorneoFutbol.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\artge\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Servidor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\artge\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2054,8 +2054,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Servidor\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Servidor\\Desktop\\projects\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
+            "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj"
             }
           }
         }
