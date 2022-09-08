@@ -26,11 +26,6 @@ namespace Torneo.App.Persistencia
             {
                 relationship.DeleteBehavior = DeleteBehavior.Restrict;
             }
-            // para dos llaves en la entidad Equipo
-            // modelBuilder.Entity<Equipo>()
-            //     .HasOne(x => x.idLocal);
-            // modelBuilder.Entity<Equipo>()
-            //     .HasOne(x => x.idVisitante);    
         }
     }
 }

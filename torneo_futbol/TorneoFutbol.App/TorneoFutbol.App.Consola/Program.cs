@@ -256,43 +256,7 @@ namespace Torneo.App.Consola
             Console.WriteLine(str);
         }
 
-        // private static void AddPartido()
-        // {
-        //     Console.WriteLine("Digite la fecha del partido (mm-dd-yyyy):");
-        //     string fechaHora = (Console.ReadLine());
-        //     DateTime myDate = DateTime.Parse(fechaHora);
-        //     bool Correcto=false;
-        //     while(!Correcto)
-        //     {
-        //         GetAllEquipos();
-        //         Console.WriteLine("Escriba id del Equipo Local");
-        //         int idLocal = Int32.Parse(Console.ReadLine());
-        //         Console.WriteLine("Escriba el marcador del Equipo Local");
-        //         int marcadorLocal = Int32.Parse(Console.ReadLine());
-        //         GetAllEquipos();
-        //         Console.WriteLine("Escriba el id del Equipo Visitante");
-        //         int idVisitante = Int32.Parse(Console.ReadLine());
-        //         if (idLocal!=idVisitante){
-        //             Correcto=true;
-        //         }
-        //         else {
-        //             Console.WriteLine("ID local y visitante debe ser distinto");
-        //         }
-        //     }    
-        //     Console.WriteLine("Escriba el marcador del equipo Visitante");
-        //     int marcadorVisitante = Int32.Parse(Console.ReadLine());
-
-        //     var partido = new Partido
-        //     {
-        //         FechaHora = myDate,
-        //         MarcadorLocal = marcadorLocal,
-        //         MarcadorVisitante = marcadorVisitante,
-        //     };
-        //     _repoPartido.AddPartido(partido, idLocal, idVisitante);
-        // }
-
-        // aqui va GetAllPartidos()
-        private static void GetAllPartidos()        
+       private static void GetAllPartidos()        
         {
             foreach (var partido in _repoPartido.GetAllPartidos())
             {
