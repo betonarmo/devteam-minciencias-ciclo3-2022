@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\artge\\.nuget\\packages\\": {}
+    "C:\\Users\\Beethoven Narvaez R\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+      "projectUniqueName": "C:\\GitHub\\Repositories\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
       "projectName": "TorneoFutbol.App.Dominio",
-      "projectPath": "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\artge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artge\\OneDrive\\Documentos\\GitHub\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
+      "projectPath": "C:\\GitHub\\Repositories\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\TorneoFutbol.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Beethoven Narvaez R\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\Repositories\\devteam-mintics-ciclo3-2022\\torneo_futbol\\TorneoFutbol.App\\TorneoFutbol.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\artge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Beethoven Narvaez R\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
